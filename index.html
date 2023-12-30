@@ -10,8 +10,8 @@
     <link rel="stylesheet" href="assets/css/styles.min.css">
 </head>
 
-<body style="justify-content: space-evenly;">
-    <nav class="navbar navbar-expand-md mb-2" data-bs-theme="dark">
+<body class="text-center" style="justify-content: space-evenly;">
+    <nav class="navbar navbar-expand-md" data-bs-theme="dark">
         <div class="container-fluid"><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navcol-1">
                 <ul class="navbar-nav d-flex flex-grow-1 justify-content-between container">
@@ -29,18 +29,28 @@
                     <li class="nav-item"><a class="nav-link" href="#">Accessories</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">Support</a></li>
                     <li class="nav-item"><a class="nav-link" href="#"><i class="fas fa-search"></i></a></li>
-                    <li class="nav-item"><a class="nav-link" href="#"><i class="fas fa-shopping-bag"></i></a></li>
+                    <li class="nav-item"><a class="nav-link" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-bag">
+                                <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z"></path>
+                            </svg></a></li>
                 </ul>
             </div>
         </div>
     </nav>
-    <div class="row m-0 telefonlar">
+    <div class="text-center d-flex d-md-flex flex-column justify-content-end align-items-center justify-content-sm-end justify-content-md-center align-items-md-center justify-content-xxl-end align-items-xxl-center" style="background-image: url(&quot;assets/img/hero_apple_watch_series_9__x5wo4ptz2giu_medium_2x.webp&quot;);background-position: center;background-size: cover;height: 90vh;">
+        <h1 class="text-center text-white"><i class="fab fa-apple fs-1 h-100"></i>Watch</h1>
+        <p class="text-white fw-semibold fs-4" style="letter-spacing: 1px;">Series 9</p>
+        <p class="text-white fs-6">Double tap. A magical new way to use Apple Watch</p>
+        <div class="row mb-5">
+            <div class="col"><button class="btn btn-primary btn-light fw-light rounded-5 py-2 px-4" style="color: rgba(10,10,10);">Learn More</button><button class="btn btn-primary btn-light fw-light rounded-5 py-2 px-4 m-2" style="color: rgba(20,20,20);">Buy</button></div>
+        </div>
+    </div>
+    <div class="row d-block m-0 telefonlar">
         <div class="col text-center d-flex flex-column align-items-center ip-15 pt-53">
             <h1>iPhone 15</h1>
             <p>New Camera. New Design. Newphoria.</p>
             <div class="d-flex justify-content-center gap-5"><a class="d-flex align-items-center" href="#">Learn More<i class="fas fa-angle-right"></i></a><a class="d-flex align-items-center" href="#">Buy<i class="fas fa-angle-right"></i></a></div>
         </div>
-        <div class="col text-center d-flex flex-column align-items-center ip-15 pt-53">
+        <div class="col text-center d-flex flex-column align-items-center ip-15 pt-53" style="background-image: url(&quot;assets/img/promo_iphone15pro__e48p7n5x3nsm_medium_2x.jpg&quot;);color: #fdfdfd;">
             <h1>iPhone 15 Pro</h1>
             <p>Titanium.So Strong. So Pro.</p>
             <div class="d-flex justify-content-center gap-5"><a class="d-flex align-items-center" href="#">Learn More<i class="fas fa-angle-right"></i></a><a class="d-flex align-items-center" href="#">Buy<i class="fas fa-angle-right"></i></a></div>
